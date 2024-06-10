@@ -19,6 +19,11 @@ ul{
 
 a{
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover{
+    color: #706697;
 }
 
 button{
@@ -28,6 +33,7 @@ button{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    transition: 0.3s ease;
 }
 
 img{
@@ -57,7 +63,6 @@ img{
 ::-webkit-scrollbar-thumb:active{
     background-color: #2d293e;
 }
-
 
 
 *{
@@ -118,6 +123,11 @@ header{
     color: #fff;
     font-family: 'Monserrat-bold';
     padding: 14px 32px;
+    transition: 0.3s ease;
+}
+
+.btnUs:hover{
+    background-color: #fff;
 }
 
 .btnJoin{
@@ -129,6 +139,7 @@ header{
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
     font-family: 'Monserrat-bold';
     margin-left: 38px;
+    transition: 0.3s ease;
 }
 /* ---------------------------------------main------------------------------------------------ */
 main{
@@ -168,6 +179,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
+    transition: 0.3s ease;
 }
 
 .btn-main button{
@@ -178,6 +190,7 @@ main{
     font-family: 'Monserrat-bold';
     color: #3A3456;
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    transition: 0.3s ease;
 }
 
 .btn-main a{
@@ -314,6 +327,7 @@ main{
     font-family: 'Monserrat-bold';
     color: #3A3456;
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    transition: 0.3s ease;
 }
 
 .img-inform{
@@ -369,6 +383,7 @@ main{
     font-family: 'Monserrat-bold';
     color: #343045;
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    transition: 0.3s ease;
 }
 
 
@@ -590,6 +605,7 @@ footer{
     font-family: 'Monserrat-bold';
     color: #3A3456;
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    transition: 0.3s ease;
 }
 
 .list-footer{
@@ -599,10 +615,13 @@ footer{
     margin: 20px 0;
 }
 
-
 .list-link{
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 0 30px;
+}
+
+.list-link a:hover{
+    color: #8176AF;
 }
