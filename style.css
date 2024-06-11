@@ -130,7 +130,7 @@ header{
     background-color: #fff;
 }
 
-.btnJoin{
+#btnJoin{
     width: 154px;
     height: 48px;
     border: none;
@@ -488,7 +488,7 @@ main{
 }
 
 /* form */
-.block-form{
+#block-form{
     display: flex;
     flex-direction: column;
     padding-top: 25px;
