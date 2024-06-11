@@ -577,7 +577,7 @@ footer{
     top: 5100px;
 }
 
-.blocks-footer{
+#blocks-footer{
     display: flex;
     flex-direction: row;
     align-items: center;
